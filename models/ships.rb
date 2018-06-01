@@ -11,4 +11,8 @@ class Ship
 
     SHIPS << self
   end #initialize
+
+
+  def self.all
+    SHIPS
 end #Ship class
