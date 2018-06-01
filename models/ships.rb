@@ -15,4 +15,5 @@ class Ship
 
   def self.all
     SHIPS
+  end #.all
 end #Ship class
