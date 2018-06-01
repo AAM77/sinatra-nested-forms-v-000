@@ -10,4 +10,5 @@ class Pirate
     @height = params[:height]
 
     PIRATES << self
+  end #initialize
 end #Pirate class
