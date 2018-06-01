@@ -8,4 +8,6 @@ class Pirate
     @name = params[:name]
     @weight = params[:weight]
     @height = params[:height]
+
+    PIRATES << self
 end #Pirate class
