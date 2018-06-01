@@ -20,6 +20,7 @@ module FormsLab
       end #each |details|
 
       @ships = Ship.all
+      
       erb :show
     end
 
