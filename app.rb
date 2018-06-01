@@ -7,7 +7,7 @@ module FormsLab
       erb :index
     end
 
-    get '/new' do
+    get '/post' do
       erb :new
     end
 
