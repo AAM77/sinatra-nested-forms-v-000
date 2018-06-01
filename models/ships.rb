@@ -10,4 +10,5 @@ class Ship
     @booty = params[:booty]
 
     SHIPS << self
+  end #initialize
 end #Ship class
