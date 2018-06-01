@@ -5,4 +5,5 @@ class Ship
   SHIPS = []
 
   def initialize(name, type, booty)
+    @name = params[:name]
 end #Ship class
