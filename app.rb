@@ -9,6 +9,9 @@ module FormsLab
 
     get '/pirates' do
       erb :new
+    end
+
+    
 
 
 
