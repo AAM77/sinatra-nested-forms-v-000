@@ -16,4 +16,6 @@ class Ship
   def self.all
     SHIPS
   end #.all
+
+  def self.clear
 end #Ship class
