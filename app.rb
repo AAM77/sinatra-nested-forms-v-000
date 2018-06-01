@@ -7,7 +7,7 @@ module FormsLab
       erb :root
     end
 
-    get '/pirates' do
+    get '/new' do
       erb :new
     end
 
@@ -20,7 +20,7 @@ module FormsLab
       end #each |details|
 
       @ships = Ship.all
-      
+
       erb :show
     end
 
